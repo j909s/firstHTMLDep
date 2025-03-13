@@ -7,6 +7,12 @@
 </head>
 <body>
     <marquee onmouseover="this.stop()" onmouseleave="this.start()"><h1 style="color:blueviolet">Hello</h1></marquee>
-    <p>this is a test</p>
+    <form action="login" method="post">
+        <label for="username" name="username">Username:</label><br>
+        <input type="text" placeholder="username"><br>
+        <label for="password" name="password">Password:</label><br>
+        <input type="password" placeholder="password">
+        <input type="button" value="login">
+    </form>
 </body>
 </html>
